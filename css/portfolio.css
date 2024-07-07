@@ -16,7 +16,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 220px;
+    margin: 20px 220px;
 }
 /* nav bar's title style */
 .nav-title{
@@ -47,4 +47,27 @@ nav li a{
     color: white;
     border: none;
 }
+/* Banner */
+.hi{
+    font-size: 45px;
+    font-weight:600;
+    
+}
+.name{
+    font-size: 85px;
+    font-weight: bold;
+}
+.abba-banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 0 200px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.dis_cript{
+    font-size: 18px;
+}
+
+
 
