@@ -1,5 +1,8 @@
 
 /* Font */
+*{
+    margin: 0;
+}
 .open-sans-simple {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -10,6 +13,12 @@
 /* shared style */
 .text-primary{
     color: #FD6E0A;
+}
+/* common background */
+.common_back{
+    background-color: rgba(255, 248, 243, 1);
+    padding-top: 15px;
+    
 }
     
 /* nav bar style */
@@ -65,9 +74,17 @@ nav li a{
 .banner-content{
     max-width: 585px;
 }
-.dis_cript{
+.dis-cript{
     font-size: 18px;
+    padding-bottom: 20px;
+
 }
+/* adding a developer img in header */
 
-
-
+.header{
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+    
+    background-repeat: no-repeat;
+    background-position: left center, bottom right;
+    margin-left: 40px;
+}
