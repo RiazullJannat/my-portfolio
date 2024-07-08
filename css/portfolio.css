@@ -217,3 +217,34 @@ main section>p{
 }
 
 /* footer style */
+footer{
+    
+    
+}
+.main_div{
+    padding: 130px 230px;
+    display: flex;
+}
+
+.column_title{
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.pw{
+    width: 562px;
+    padding: 20px 0px
+}
+.footer_column{
+    padding: 53px;
+}
+.inp_div{
+    display: block;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px ;
+}
