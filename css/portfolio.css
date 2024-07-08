@@ -248,3 +248,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     border: none;
     font-size: 16px ;
 }
+.anchor_container{
+    display: flex;
+    gap: 30px;
+}
